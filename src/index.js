@@ -13,7 +13,7 @@ logoBtn.addEventListener("click",
     }
 )
 
-const btnList = Array.from(document.querySelectorAll("ul li"));
+const btnList = Array.from(document.querySelectorAll("nav ul li"));
 btnList.forEach(
     (btn)=>{
         btn.addEventListener("click",
